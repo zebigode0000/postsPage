@@ -8,7 +8,7 @@ export function Posts(props) {
 
    //variavel do comentario
   const [comments, setComments] = useState([
-    "OLaaa galera"
+    "Esse projeto é um projeto muito Legal"
   ])
  //adicionar mais um comentario
   const [newComment, setNewComment] = useState ('')
@@ -79,7 +79,7 @@ function deleteComment (commentToDelete) {
       <div className="p-4">
         {props.content.map((line) => {
           if (line.type === 'paragraph') return <p key={line.content} className='pb-5 text-gray-300'>{line.content}</p>
-          if (line.type === 'link') return <p key={line.content}><a className="text-ignite-500" href="#">{line.content}</a></p>
+          if (line.type === 'link') return <p key={line.content}><a className="text-blue-400" target='_blank' href="https://github.com/zebigode0000/postsPage.git">{line.content}</a></p>
         })}
       </div>
 
@@ -87,7 +87,7 @@ function deleteComment (commentToDelete) {
     <strong className="leading-15 text-gray-100">Deixe seu Feedback</strong>
 
     <textarea name='comment'
-        className="text-gray-100 mt-2 w-full bg-black/30 resize-none h-30 p-2 rounded focus:outline-none focus:border focus:border-ignite-500" 
+        className="text-gray-100 mt-2 w-full bg-black/30 resize-none h-30 p-2 rounded focus:outline-none focus:border focus:border-blue-400" 
         placeholder="Deixe um Comentario"
         onChange={cliqueNewCommentChange}
         value={newComment}
@@ -95,10 +95,9 @@ function deleteComment (commentToDelete) {
         required
     />
 
-    {/* O segredo está aqui: group-focus-within */}
     <footer className="invisible max-h-0 opacity-0 group-focus-within:visible group-focus-within:max-h-20 group-focus-within:opacity-100 transition-all duration-300">
         <button 
-            className="mt-2 p-2 rounded bg-ignite-500 font-bold text-white cursor-pointer hover:bg-ignite-300 disabled:opacity-70 disabled:cursor-not-allowed enabled:hover:bg-[var(--green-300)]" 
+            className="mt-2 p-2 rounded bg-blue-400 font-bold text-white cursor-pointer hover:bg-blue-900 disabled:opacity-70 disabled:cursor-not-allowed enabled:hover:bg-[var(--green-300)]" 
             type="submit"
             disabled={isNewCommentEmpty}
         >

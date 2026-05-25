@@ -14,8 +14,8 @@ const posts = [
     },
     content: [
       {type: 'paragraph', content: 'Fala galeraa 👋'},
-      {type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀'},
-      {type: 'link', content: 'jane.design/doctorcare'}
+      {type: 'paragraph', content: 'Um simulador de rede social desenvolvido para praticar conceitos avançados de manipulação de estado, interatividade e dinamismo no front-end. A aplicação permite que o usuário crie publicações, visualize o feed e interaja deixando comentários ou excluindo suas próprias mensagens, tudo com uma interface limpa e intuitiva.'},
+      {type: 'link', content: 'https://github.com/zebigode0000/postsPage.git'}
     ],
     publishedAt: new Date('2026-03-01 20:00:00')
   },
@@ -27,9 +27,9 @@ const posts = [
       role: 'Seller'
     },
     content: [
-      {type: 'paragraph', content: 'Fala galeraa 👋'},
-      {type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀'},
-      {type: 'link', content: 'jane.design/doctorcare'}
+      {type: 'paragraph', content: 'Projeto Twitter Fake'},
+      {type: 'paragraph', content: 'Uma aplicação web desenvolvida para simular as principais interações de uma rede social. O projeto foca em dinamismo e interatividade, permitindo a criação de posts, sistema de comentários em tempo real e gerenciamento de interações. 🚀'},
+      {type: 'link', content: 'https://github.com/zebigode0000/postsPage.git'}
     ],
     publishedAt: new Date('2026-01-01 20:00:00')
   },

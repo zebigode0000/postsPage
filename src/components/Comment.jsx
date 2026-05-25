@@ -35,7 +35,7 @@ function handleDeleteComment () {
 
                 <footer className="flex gap-2 items-center pt-2 ">
                     <button className="flex items-center gap-2" onClick={handleLikeComment}>
-                        <ThumbsUp className="hover:text-ignite-300 cursor-pointer" />
+                        <ThumbsUp className="hover:text-blue-400 cursor-pointer" />
                         Aplaudir <span className="before:content-['\2022'] before:mr-2">{likeCount}</span>
                     </button>
                 </footer>

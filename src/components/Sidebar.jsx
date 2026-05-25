@@ -13,7 +13,7 @@ export function Sidebar () {
             </div>
 
             <footer className="border-t-2 mt-2 p-6">
-                <a className="w-full bg-transparent border-2 p-2 px-4 text-ignite-500 rounded flex justify-center items-center gap-1.5 hover:bg-ignite-500 hover:text-white hover:border-ignite-500 transition-all ease-in duration-200" href="#">
+                <a className="w-full bg-transparent border-2 p-2 px-4 text-blue-400 rounded flex justify-center items-center gap-1.5 hover:bg-blue-400 hover:text-white hover:border-blue-400 transition-all ease-in duration-200" href="#">
                     <PencilLine 
                     size={20}
                     />
