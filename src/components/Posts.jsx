@@ -79,7 +79,7 @@ function deleteComment (commentToDelete) {
       <div className="p-4">
         {props.content.map((line) => {
           if (line.type === 'paragraph') return <p key={line.content} className='pb-5 text-gray-300'>{line.content}</p>
-          if (line.type === 'link') return <p key={line.content}><a className="text-blue-400" target='_blank' href="https://github.com/zebigode0000/postsPage.git">{line.content}</a></p>
+          if (line.type === 'link') return <p key={line.content}><a className="text-blue-400 break-all" target='_blank' href="https://github.com/zebigode0000/postsPage.git">{line.content}</a></p>
         })}
       </div>
 
